@@ -1,0 +1,18 @@
+{
+  "servers": [
+    {
+      "name": "memo-app-server",
+      "ip": "49.235.161.106",
+      "port": 22,
+      "username": "root",
+      "auth_type": "key",
+      "key_path": "config/id_rsa",
+      "target_dir": "/opt/apps/memo-app"
+    }
+  ],
+  "inspection": {
+    "interval_minutes": 10,
+    "duration_minutes": 30,
+    "report_path": "reports/server_inspection_report.xlsx"
+  }
+}
